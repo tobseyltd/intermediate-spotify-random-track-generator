@@ -26,6 +26,7 @@ select {
 
 
 #genres, #generate-song {
+    cursor: pointer;
     width: clamp(10rem, 10vh, 5rem);
     height: clamp(2rem, 5vh, 2rem);
 }
