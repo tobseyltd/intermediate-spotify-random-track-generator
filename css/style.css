@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+}
+
+section {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form label{
+    display: block;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+select {
+    text-align: center;
+}
+
+
+#genres, #generate-song {
+    width: clamp(10rem, 10vh, 5rem);
+    height: clamp(2rem, 5vh, 2rem);
+}
+
+#generate-song {
+    background-color: #1ed760;
+    color: black;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+#show-song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+#title {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+#album-cover {
+    width: clamp(min(30vw, 40rem), 300px, max(90vw, 55rem));
+    border: 1px solid white;
+}
+
+#spotify {
+    display: flex;
+    margin-top: 3rem;
+    padding: clamp(1em, 10vh, 1rem);
+    background-color: #1ed760;
+    color: white;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    cursor: pointer;
+}
+
+#spotify-icon{
+    padding-left: 1rem;
+}
+
